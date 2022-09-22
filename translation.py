@@ -7,8 +7,6 @@ This is a Telegram URL Upload Bot!
 <b>Please send me any Direct download URL link, I can upload to telegram as File/Video</b>
 
 /help for more details..
-
-Support Group : @NP_technology
 """
 
     HELP_USER = """Hai I'am a URL Uploader bot..
@@ -20,8 +18,6 @@ Support Group : @NP_technology
    DFile  - Give File with Screenshots
    Video  - Give File as video without Screenshots
    DFile  - Give File without Screenshots
-
-Support Group : @NP_technology
 """
 
     FORMAT_SELECTION = """Select the desired format: <a href='{}'>file size might be approximate</a>
@@ -34,9 +30,9 @@ You can use /deletethumbnail to delete the auto-generated thumbnail."""
 
  
     
-    DOWNLOAD_START = "Trying to download your file from Web..."
+    DOWNLOAD_START = "Trying To Download..."
     
-    UPLOAD_START = "Uploading now to Telegram.."
+    UPLOAD_START = "Trying To Upload..."
     
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \n\nUploaded in {} seconds."
 
